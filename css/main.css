@@ -36,6 +36,7 @@ img {
 article {
   width: 80%;
   font-size: 28px;
+  text-align: justify;
 }
 
 main {
@@ -44,7 +45,7 @@ main {
 }
 
 main > section {
-  width: 80%;
+  width: 70%;
   display: flex;
   flex-direction: column;
   row-gap: 1vh;
@@ -68,5 +69,32 @@ ul a {
 
 ul a:hover {
   text-decoration: underline;
-  
+}
+
+figure img {
+  transform: rotate(90deg);
+  width: 38vh;
+}
+
+figure {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+figure a {
+  display: inline-block;
+  width: 38vh;
+  height: 38vh;
+  overflow: hidden;
+  border-radius: 5%;
+}
+
+figure .img {
+  width: 38vh;
+  height: 38vh;
+  background-image: url("/img/img2.jpg");
+  background-size: cover;
+  transform: rotate(90deg);
 }
