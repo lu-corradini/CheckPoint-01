@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  padding-top: 3vh;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1vh;
+  width: 100%;
+}
+
+figure {
+  display: flex;
+  column-gap: 10vh;
+}
+
+figure a {
+  display: inline-block;
+  width: 60vh;
+  height: 18vh;
+  overflow: hidden;
+  border-radius: 2vh;
+  border: 1px solid black;
+}
+
+figure .google,
+.youtube,
+.insta,
+.face,
+.tiktok,
+.wik,
+.palmeiras,
+.uol,
+.kabum,
+.mercado {
+  height: 100%;
+  width: 100%;
+  background-image: url("/img/google.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.youtube {
+  background-image: url("/img/youtube.png");
+}
+
+.insta {
+  background-image: url("/img/insta.png");
+}
+
+.face {
+  background-image: url("/img/face.png");
+  background-size: 85%;
+}
+
+.tiktok {
+  background-image: url("/img/tiktok.png");
+}
+
+.wik {
+  background-image: url("/img/wik.jpg");
+}
+
+.palmeiras {
+  background-image: url("/img/palmeiras.jpg");
+}
+
+.uol {
+  background-image: url("/img/uol.png");
+}
+
+.kabum {
+  background-image: url("/img/kabum.png");
+}
+
+.mercado {
+  background-image: url("/img/mercado.png");
+}
