@@ -1,3 +1,3 @@
-CheckPoint Nº1
+#CheckPoint Nº1
 
 FIAP / Primeiro Semestre
